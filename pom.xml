@@ -29,6 +29,10 @@
 
     <properties>
         <main.dir>${basedir}</main.dir>
+        <pkg.name></pkg.name>
+        <pkg.copyInstallScripts></pkg.copyInstallScripts>
+        <pkg.mainClass>ThingsboardServerApplication</pkg.mainClass>
+        <pkg.type>java</pkg.type>
         <pkg.disabled>true</pkg.disabled>
         <pkg.process-resources.phase>none</pkg.process-resources.phase>
         <pkg.package.phase>none</pkg.package.phase>
@@ -79,7 +83,7 @@
         <protobuf.version>3.21.9</protobuf.version>
         <grpc.version>1.42.1</grpc.version>
         <tbel.version>1.1.5</tbel.version>
-        <lombok.version>1.18.18</lombok.version>
+        <lombok.version>1.18.28</lombok.version>
         <paho.client.version>1.2.4</paho.client.version>
         <paho.mqttv5.client.version>1.2.5</paho.mqttv5.client.version>
         <netty.version>4.1.91.Final</netty.version>
